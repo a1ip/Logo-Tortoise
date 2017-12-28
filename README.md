@@ -19,15 +19,15 @@ preloaded.
 The interpreter understands the following keywords:
 
 <dl>
-  <dt><code>forward <var>x</var></code></dt>
+  <dt><code>forward <var>x</var></code> or <code>fd <var>x</var></code></dt>
   <dd>Move forward <var>x</var> steps</dd>
-  <dt><code>right <var>x</var></code></dt>
+  <dt><code>right <var>x</var></code> or <code>rt <var>x</var></code></dt>
   <dd>Turn right <var>x</var> degrees</dd>
-  <dt><code>left <var>x</var></code></dt>
+  <dt><code>left <var>x</var></code> or <code>lt <var>x</var></code></dt>
   <dd>Turn left <var>x</var> degrees</dd>
-  <dt><code>penup</code></dt>
+  <dt><code>penup</code> or <code>pu</code></dt>
   <dd>Stop drawing lines when moving</dd>
-  <dt><code>pendown</code></dt>
+  <dt><code>pendown</code> or <code>pd</code></dt>
   <dd>Start drawing lines when moving</dd>
   <dt><code>repeat <var>x</var> [ <var>instructions</var> ]</code></dt>
   <dd>Repeat <var>instructions</var> <var>x</var> times</dd>
